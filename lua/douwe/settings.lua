@@ -25,8 +25,8 @@ o.tabstop = 2
 o.encoding = 'UTF-8'
 o.termguicolors = true
 
-g.mapleader = ' ' -- set space as leader key (:help mapleader)
-g.maplocalleader = ' '
+g.mapleader = ',' -- set space as leader key (:help mapleader)
+g.maplocalleader = ','
 g.have_nerd_font = true
 
 o.breakindent = true -- Enable break indent
@@ -38,7 +38,7 @@ o.ignorecase = true
 o.smartcase = true -- case insensitive searching unless \C (capital letter) is used in searching
 
 o.updatetime = 250 -- ????
-o.timeoutlen = 250 -- decrease sequence wait time
+o.timeoutlen = 350 -- decrease sequence wait time
 
 -- configure splits
 o.splitright = true
