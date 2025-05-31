@@ -36,6 +36,7 @@ return {
         'vim',
         'dockerfile',
         'gitignore',
+        'go',
         'c',
         'rust',
       },
