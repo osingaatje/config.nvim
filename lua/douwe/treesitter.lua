@@ -4,6 +4,7 @@ return {
   build = ':TSUpdate',
   dependencies = {
     'windwp/nvim-ts-autotag',
+    'OXY2DEV/markview.nvim',
   },
   config = function()
     local treesitter = require 'nvim-treesitter.configs'
@@ -33,6 +34,7 @@ return {
         'markdown_inline',
         'bash',
         'lua',
+        'typst',
         'vim',
         'dockerfile',
         'gitignore',
