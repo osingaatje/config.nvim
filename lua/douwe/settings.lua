@@ -4,21 +4,22 @@ local g = vim.g
 local o = vim.opt
 
 o.number = true
-o.mouse = 'a' -- enable cursor mode
+o.mouse = 'a'      -- enable cursor mode
 o.showmode = false --disable showing mode
 
-o.undofile = true -- save undo history
+o.undofile = true  -- save undo history
 
 -- schedule this as a func as well to be extra sure!
 vim.schedule(function()
   o.clipboard = 'unnamedplus'
 end)
 
+
 o.clipboard = 'unnamedplus' -- uses the clipboard register for all operations except yank.
-o.syntax = 'on' -- When this option is set, the syntax with this name is loaded.
-o.autoindent = true -- Copy indent from current line when starting a new line.
-o.cursorline = true -- Highlight the screen line of the cursor with CursorLine.
-o.expandtab = true -- In Insert mode: Use the appropriate number of spaces to insert a <Tab>.
+o.syntax = 'on'             -- When this option is set, the syntax with this name is loaded.
+o.autoindent = true         -- Copy indent from current line when starting a new line.
+o.cursorline = true         -- Highlight the screen line of the cursor with CursorLine.
+o.expandtab = true          -- In Insert mode: Use the appropriate number of spaces to insert a <Tab>.
 
 o.shiftwidth = 2
 o.tabstop = 2
