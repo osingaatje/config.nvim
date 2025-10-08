@@ -1,3 +1,4 @@
+-- REMINDER: <leader>ll == save document. See https://github.com/lervag/vimtex?tab=readme-ov-file#quick-start for more info.
 return {
   "lervag/vimtex",
   lazy = false, -- we don't want to lazy load VimTeX
