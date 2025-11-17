@@ -9,7 +9,7 @@ If you experience any errors while trying to install kickstart, run `:checkhealt
 require 'douwe.settings'
 
 -- init and plugins of Lazy
-require 'douwe.lazy'
+require 'lazyconfig'
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`

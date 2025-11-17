@@ -40,6 +40,8 @@ require('lazy').setup {
 
   require 'douwe.latex',
 
+  require 'douwe.typst',
+
   require 'douwe.autocomplete',
 
   -- NOTE: Plugins can also be added by using a table,
