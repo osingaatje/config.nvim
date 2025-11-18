@@ -30,12 +30,12 @@ return {
       vim.api.nvim_create_user_command("PeekClose", require("peek").close, {})
     end,
   },
-  {
-    "3rd/image.nvim",
-    config = function()
-      require("image").setup({
-        backend = "kitty"
-      })
-    end,
-  },
+  --  {
+  --    "3rd/image.nvim",
+  --    config = function()
+  --      require("image").setup({
+  --        backend = "kitty"
+  --      })
+  --    end,
+  --  },
 }
