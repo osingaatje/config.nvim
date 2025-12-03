@@ -27,7 +27,7 @@ return {
       -- CUSTOM KEYBINDS FOR LSP:
       -- IS ALREADY SET BY DEFAULT: vim.keymap.set('n', 'K', vim.lsp.buf.hover) -- 'K' == get docs for whatever you're hovering over
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition) -- "go to definition"
-      vim.keymap.set('n', 'h', vim.lsp.buf.hover)
+      vim.keymap.set('n', 'gh', vim.lsp.buf.hover)
       -- code actions! Accept suggestions etc.:
       vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action)
     end,
