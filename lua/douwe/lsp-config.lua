@@ -9,7 +9,7 @@ return {
     'mason-org/mason-lspconfig.nvim',
     config = function()
       require('mason-lspconfig').setup {
-        ensure_installed = { 'lua_ls', 'gopls' },
+        ensure_installed = { 'lua_ls', 'gopls', 'tinymist' },
       }
     end,
   },
@@ -22,6 +22,10 @@ return {
 
       vim.lsp.config('gopls', {
         -- go config
+      })
+
+      vim.lsp.config('tinymist', {
+        -- typst config
       })
 
       -- CUSTOM KEYBINDS FOR LSP:
