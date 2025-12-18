@@ -4,7 +4,19 @@ return {
   build = ':TSUpdate',
   dependencies = {
     'windwp/nvim-ts-autotag',
-    'OXY2DEV/markview.nvim',
+    {
+      'OXY2DEV/markview.nvim',
+      config = function()
+        require('markview').setup {
+          typst = {
+            enable = true,
+            code_blocks = {
+              enable = false,
+            },
+          },
+        }
+      end,
+    },
   },
   config = function()
     local treesitter = require 'nvim-treesitter.configs'
